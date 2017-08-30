@@ -5,5 +5,4 @@ node('fedora-docs') {
     cicoPipeline{
         echo 'Build the asciibinder thing'
     }
-}
-
+}()
