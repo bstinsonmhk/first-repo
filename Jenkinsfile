@@ -1,4 +1,4 @@
-@Library('github.com/CentOS/cico-pipeline-library@master') _
+@Library('cico-pipeline-library') _
 
 node('fedora-docs') {
     deleteDir()
